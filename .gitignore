@@ -3,3 +3,6 @@
 *.dll
 *.exe
 *.pdb
+.vs/MichiBlog/v17/.suo
+.vs/MichiBlog/v17/DocumentLayout.json
+MichiBlog/bin/Debug/net8.0/MichiBlog.WebApp.exe
