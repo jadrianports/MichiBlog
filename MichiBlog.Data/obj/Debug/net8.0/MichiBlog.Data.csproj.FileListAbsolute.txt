@@ -1,0 +1,12 @@
+C:\Projects\MichiBlog\MichiBlog.Data\bin\Debug\net8.0\MichiBlog.Data.deps.json
+C:\Projects\MichiBlog\MichiBlog.Data\bin\Debug\net8.0\MichiBlog.Data.dll
+C:\Projects\MichiBlog\MichiBlog.Data\bin\Debug\net8.0\MichiBlog.Data.pdb
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.csproj.AssemblyReference.cache
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.AssemblyInfoInputs.cache
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.AssemblyInfo.cs
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.csproj.CoreCompileInputs.cache
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.dll
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\refint\MichiBlog.Data.dll
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\MichiBlog.Data.pdb
+C:\Projects\MichiBlog\MichiBlog.Data\obj\Debug\net8.0\ref\MichiBlog.Data.dll
