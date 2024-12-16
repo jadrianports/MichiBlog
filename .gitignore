@@ -1,0 +1,5 @@
+
+*.vsidx
+*.dll
+*.exe
+*.pdb
