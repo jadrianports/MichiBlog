@@ -62,8 +62,7 @@
               "RelativeToolTip": "MichiBlog\\ViewModels\\UserVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:36:40.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:36:40.504Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T17:10:21.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:10:21.032Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAArwCwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T16:57:34.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:57:34.996Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "MichiBlog\\Utilities\\DbInitializer.cs",
               "ViewState": "AgIAABIAAAAA0szMzMwEwBYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:07:53.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:07:53.987Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "MichiBlog\\ViewModels\\LoginVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:01:05.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:01:05.012Z"
             },
             {
               "$type": "Document",
@@ -127,8 +122,7 @@
               "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
               "ViewState": "AgIAAAgAAABAZ2ZmZuYcwAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T16:56:53.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:56:53.017Z"
             },
             {
               "$type": "Document",
@@ -140,8 +134,7 @@
               "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\Login.cshtml",
               "ViewState": "AgIAAAEAAADAZmZmZuYcwAMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T16:29:48.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T16:29:48.698Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "MichiBlog\\Program.cs",
               "ViewState": "AgIAAA4AAADgZGZmZiYkwBsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:42:36.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T11:42:36.498Z"
             }
           ]
         }
