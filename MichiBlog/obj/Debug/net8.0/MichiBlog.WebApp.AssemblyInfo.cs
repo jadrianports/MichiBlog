@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MichiBlog.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2489c65204abcf0c53a69f3a11fb153fe4ff0849")]
 [assembly: System.Reflection.AssemblyProductAttribute("MichiBlog.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MichiBlog.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

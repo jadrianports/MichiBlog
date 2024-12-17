@@ -1,0 +1,51 @@
+﻿@model MichiBlog.WebApp.ViewModels.RegisterVM
+
+@{
+    ViewData["Title"] = "AddUser";
+}
+
+<div class="container-fluid">
+    <a class="btn btn-primary mb-1" asp-action = "Index" asp-controller="User">Go Back</a>
+    <div class="card">
+       <div class="class-header bg-primary">
+            <h4 class="card-title text-white">Add User</h4>
+       </div>
+       <div class="card-body">
+           <form asp-action="AddUser" asp-controller="User" asp-area = "Admin" method="post">
+               <div class="mb-2">
+                   <label>First Name</label>
+                   <input asp-for="FirstName" type="text" class="form-control">
+                   <span asp-validation-for="FirstName" class="text-danger"></span>
+               </div>
+               <div class="mb-2">
+                   <label>Last Name</label>
+                   <input asp-for="LastName" type="text" class="form-control">
+                   <span asp-validation-for="LastName" class="text-danger"></span>
+               </div>
+               <div class="mb-2">
+                   <label>Email</label>
+                   <input asp-for="Email" type="email" class="form-control">
+                   <span asp-validation-for="Email" class="text-danger"></span>
+               </div>
+                <div class="mb-2">
+                    <label>UserName</label>
+                    <input asp-for="UserName" type="text" class="form-control">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+               <div class="mb-2">
+                   <label>Password</label>
+                   <input asp-for="Password" type="password" class="form-control">
+                   <span asp-validation-for="Password" class="text-danger"></span>
+               </div>
+               <div class="mb-2">
+                   <input asp-for="IsAdmin" type="checkbox" class="custom-checkbox" />
+                   <label>Is Admin?</label>
+               </div>
+               <div class="mb-2">
+                   <button type="submit" class="btn btn-primary w-100">Add User</button>
+               </div>
+           </form>
+       </div>
+    </div>
+</div>
+

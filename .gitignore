@@ -9,3 +9,9 @@ MichiBlog/bin/Debug/net8.0/MichiBlog.WebApp.exe
 /.vs/MichiBlog/v17
 /.vs/MichiBlog
 /.vs
+*.vsidx
+*.v2
+/MichiBlog/obj/Debug
+*.cache
+*.editorconfig
+*.exe

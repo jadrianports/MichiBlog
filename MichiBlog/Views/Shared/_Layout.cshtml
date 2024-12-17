@@ -30,6 +30,10 @@
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller = "Page" asp-action = "About">About</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller = "Page" asp-action = "Privacy">Privacy Policy</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller = "Page" asp-action= "Contact">Contact</a></li>
+                    @if (User.IsInRole("Admin")) {
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller="User" asp-action="Index" asp-area="Admin">ADMIN</a></li>
+                    }
+
                 </ul>
             </div>
         </div>
