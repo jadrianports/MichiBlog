@@ -26,6 +26,12 @@ builder.Services.AddNotyf(config => { config.DurationInSeconds = 10; config.IsDi
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/login";
+    options.AccessDeniedPath = "/Error/AccessDenied";
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
 });
 
 builder.Services.AddRazorPages()
@@ -52,6 +58,18 @@ app.UseNotyf();
 app.UseAuthentication();
  
 app.UseAuthorization();
+
+app.UseStatusCodePages(async context =>
+{
+    if (context.HttpContext.Response.StatusCode == 403)
+    {
+        context.HttpContext.Response.Redirect("/Error/AccessDenied");
+    }
+    else if (context.HttpContext.Response.StatusCode == 401)
+    {
+        context.HttpContext.Response.Redirect("/login");
+    }
+});
 
 app.MapControllerRoute(
     name: "area",

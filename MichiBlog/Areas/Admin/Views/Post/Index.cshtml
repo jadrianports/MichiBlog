@@ -1,0 +1,52 @@
+﻿@* @model MichiBlog.WebApp.ViewModels.PostVM *@
+@{
+    ViewData["Title"] = "List of Posts";
+}
+<h2>This is the list of posts</h2>
+@* <div class="container-fluid"> *@
+@*     <a class="btn bg-primary text-white" asp-action="Create" asp-controller="Post">Add Post</a> *@
+@*     <div class="card"> *@
+@*         <div class="card-header bg-primary"> *@
+@*             <h4 class="card-title text-white">List of Posts</h4> *@
+@*         </div> *@
+@*         <div class="card-body"> *@
+@*             <table class="table table-striped table-hover" id="userTable"> *@
+@*                 <thead> *@
+@*                     <tr> *@
+@*                         <th>Title</th> *@
+@*                         <th>Short Description</th> *@
+@*                         <th>Date Created</th> *@
+@*                         <th>Email</th> *@
+@*                         <th>Role</th> *@
+@*                         <th>Action</th> *@
+@*                     </tr> *@
+@*                 </thead> *@
+@*                 <tbody> *@
+@*                     @foreach (var user in Model) *@
+@*                     { *@
+@*                         <tr> *@
+@*                             <td>@user.FirstName</td> *@
+@*                             <td>@user.LastName</td> *@
+@*                             <td>@user.UserName</td> *@
+@*                             <td>@user.Email</td> *@
+@*                             <td>@user.Role</td> *@
+@*                             <td> *@
+@*                                 @if (User.Identity.Name != user.UserName) *@
+@*                                 { *@
+@*                                     <a href="@Url.Action("EditUser", "User", new { id = user.Id, area = "Admin" })" class="btn bg-warning text-white">Edit</a> *@
+@*                                     <a class="btn bg-info text-white" asp-action="ResetPassword" asp-controller="User" asp-route-id="@user.Id">Reset Password</a> *@
+@*                                     <a class="btn bg-danger text-white">Delete</a> *@
+
+@*                                 } *@
+@*                                 else *@
+@*                                 { *@
+@*                                     <span>Cannot edit or delete this user</span> *@
+@*                                 } *@
+@*                             </td> *@
+@*                         </tr> *@
+@*                     } *@
+@*                 </tbody> *@
+@*             </table> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@

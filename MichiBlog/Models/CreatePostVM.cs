@@ -1,6 +1,6 @@
 ﻿namespace MichiBlog.Models
 {
-    public class Post
+    public class CreatePostVM
     {
         public int Id { get; set; }
         public string? Title { get; set; }
@@ -10,5 +10,6 @@
         public string? ApplicationUserId { get; set; }
         public ApplicationUser? ApplicationUser { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public string? ThumbnailUrl { get; set; }
     }
 }

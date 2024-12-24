@@ -1,0 +1,46 @@
+﻿@model MichiBlog.WebApp.ViewModels.CreatePostVM
+@{
+    ViewData["Title"] = "Create Post";
+}
+<div class="container-fluid">
+    <a class="btn btn-primary mb-1" asp-action="Index" asp-controller="User">Go Back</a>
+    <div class="card">
+        <div class="class-header bg-primary">
+            <h4 class="card-title text-white">Add User</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" asp-controller="Post" asp-area="Admin" method="post">
+                <div class="col-9">
+                    <div class="mb-2">
+                        <label>First Name</label>
+                        <input asp-for="Title" type="text" class="form-control">
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+                        <label>Last Name</label>
+                        <input asp-for="ShortDescription" type="text" class="form-control">
+                        <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+                        <label>Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="8"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-2">
+                        <img src="~/Thumbnails/default.jpg" class="img-fluid">
+                    </div>
+                    <div class="mb-2">
+                        <label>Thumbnail</label>
+                        <input asp-for="Thumbnail" type="file" class="custom-file">
+                        <span asp-validation-for="Thumbnail" class="text-danger"></span>
+                    </div>
+                </div>
+                    <div class="mb-2">
+                        <button type="submit" class="btn btn-primary w-100">Add User</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>

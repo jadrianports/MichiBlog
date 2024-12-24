@@ -3,56 +3,104 @@
   "WorkspaceRootPath": "C:\\Projects\\MichiBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\edituservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\edituservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\postvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\postvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\MichiBlog\\MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\models\\createpostvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\models\\createpostvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\views\\error\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\views\\error\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\controllers\\1yamjzoe.uyt~||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\controllers\\1yamjzoe.uyt~||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\edituservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\edituservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|c:\\projects\\michiblog\\michiblog\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371B1684-37FB-4879-B60E-08C45B8FFD3E}|MichiBlog\\MichiBlog.WebApp.csproj|solutionrelative:michiblog\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,88 +110,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "ViewState": "AgIAABsAAAAAZWZmZmYKwCIAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T14:35:14.607Z",
+              "WhenOpened": "2024-12-22T18:18:33.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\RegisterVM.cs",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\RegisterVM.cs",
-              "RelativeToolTip": "MichiBlog\\ViewModels\\RegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T12:16:18.701Z",
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:51:46.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAABoAAADAy8zMzMwXwCQAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T17:10:21.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
-              "ViewState": "AgIAABAAAACQMzMzM/MmwAsAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFMAAAAAnJmZmZkOwFoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T16:56:53.017Z",
+              "WhenOpened": "2024-12-16T16:57:34.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:29:19.591Z",
+              "DocumentIndex": 6,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T14:35:14.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditUserVM.cs",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\EditUserVM.cs",
-              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\EditUserVM.cs",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\EditUserVM.cs",
-              "RelativeToolTip": "MichiBlog\\ViewModels\\EditUserVM.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T14:39:33.97Z",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:20:15.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:03:01.564Z",
               "EditorCaption": ""
             },
             {
@@ -161,7 +230,206 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAAgAAAAANjMzMzPrvxMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T18:07:55.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Program.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Program.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Program.cs",
+              "RelativeToolTip": "MichiBlog\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:42:36.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T18:34:52.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAANsAAAAA5MzMzMwFwPQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:29:19.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreatePostVM.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Models\\CreatePostVM.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Models\\CreatePostVM.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Models\\CreatePostVM.cs",
+              "RelativeToolTip": "MichiBlog\\Models\\CreatePostVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T18:25:49.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241222182940_ThumbnailUrlAdded.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs",
+              "RelativeToolTip": "MichiBlog\\Migrations\\20241222182940_ThumbnailUrlAdded.cs",
+              "ViewState": "AgIAAAYAAAAAzszMzMwHwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T18:29:40.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostVM.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\PostVM.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\PostVM.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\PostVM.cs",
+              "RelativeToolTip": "MichiBlog\\ViewModels\\PostVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T18:30:55.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAABAAAACQMzMzM/MmwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T16:56:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MichiBlog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAmDIzMzPbv1wAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T13:21:34.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MichiBlog\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAIAAACwZmZmZiYgwAwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T06:26:53.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Error\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "MichiBlog\\Views\\Error\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Error\\AccessDenied.cshtml",
+              "RelativeToolTip": "MichiBlog\\Views\\Error\\AccessDenied.cshtml",
+              "ViewState": "AgIAADsAAABAAQAAAIApwIoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T07:44:52.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "MichiBlog\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:43:41.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "1yamjzoe.uyt~",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\1yamjzoe.uyt~",
+              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Controllers\\1yamjzoe.uyt~",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Controllers\\1yamjzoe.uyt~",
+              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Controllers\\1yamjzoe.uyt~",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAALoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-22T07:39:47.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResetPassword.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\ResetPassword.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\ResetPassword.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\ResetPassword.cs",
+              "RelativeToolTip": "MichiBlog\\ViewModels\\ResetPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T05:55:47.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "MichiBlog\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:16:18.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditUserVM.cs",
+              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\EditUserVM.cs",
+              "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\EditUserVM.cs",
+              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\EditUserVM.cs",
+              "RelativeToolTip": "MichiBlog\\ViewModels\\EditUserVM.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:39:33.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "UserVM.cs",
               "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\ViewModels\\UserVM.cs",
               "RelativeDocumentMoniker": "MichiBlog\\ViewModels\\UserVM.cs",
@@ -169,71 +437,17 @@
               "RelativeToolTip": "MichiBlog\\ViewModels\\UserVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:36:40.504Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2024-12-16T17:36:40.504Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddUser.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\AddUser.cshtml",
-              "ViewState": "AgIAACAAAAAA/f///38cwCAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T12:51:46.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\User\\Register.cshtml",
-              "ViewState": "AgIAABgAAACAnJmZmRkWwC0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T12:20:15.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MichiBlog\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAACQmpmZmZkuwBAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T13:21:34.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MichiBlog\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAArwCwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T16:57:34.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\MichiBlog\\MichiBlog\\Program.cs",
-              "RelativeDocumentMoniker": "MichiBlog\\Program.cs",
-              "ToolTip": "C:\\Projects\\MichiBlog\\MichiBlog\\Program.cs",
-              "RelativeToolTip": "MichiBlog\\Program.cs",
-              "ViewState": "AgIAAA4AAADgZGZmZiYkwBsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:42:36.498Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

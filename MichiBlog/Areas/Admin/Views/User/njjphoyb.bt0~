@@ -2,7 +2,6 @@
 
 @{
     ViewData["Title"] = "Users";
-    ViewData["ActivePage"] = "Users";
 }
 <div class="container-fluid">
     <a class="btn bg-primary text-white" asp-action="AddUser" asp-controller="User">Add User</a>

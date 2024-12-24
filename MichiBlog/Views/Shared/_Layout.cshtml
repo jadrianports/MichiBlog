@@ -31,7 +31,14 @@
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller = "Page" asp-action = "Privacy">Privacy Policy</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller = "Page" asp-action= "Contact">Contact</a></li>
                     @if (User.IsInRole("Admin")) {
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller="User" asp-action="Index" asp-area="Admin">ADMIN</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller="User" asp-action="Index" asp-area="Admin">ADMIN</a></li>
+                    }
+                    @if (User.Identity.IsAuthenticated) {
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" onclick="$('#LogoutForm').submit();" style="cursor: pointer;">Logout</a>
+                            <form id="LogoutForm" class="form-inline" asp-action="Logout" asp-controller="User" asp-area="Admin" method="post">
+                            </form>
+                        </li>
+                        
                     }
 
                 </ul>
@@ -82,6 +89,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="~/blog/js/scripts.js"></script>
+    @*Import Jquery*@
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -8,6 +8,6 @@ namespace MichiBlog.Models
         public string? LastName { get; set; }
 
         //relation
-        public List<Post> Posts { get; set; }
+        public List<CreatePostVM> Posts { get; set; }
     }
 }

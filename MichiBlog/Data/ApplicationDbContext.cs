@@ -11,7 +11,7 @@ namespace MichiBlog.WebApp.Data
         {
         }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<Post>? Posts { get; set; }
+        public DbSet<CreatePostVM>? Posts { get; set; }
         public DbSet<Page>? Pages { get; set; }
     }
 }
