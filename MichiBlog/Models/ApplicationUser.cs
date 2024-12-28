@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using MichiBlog.WebApp.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace MichiBlog.Models
 {
@@ -8,6 +9,6 @@ namespace MichiBlog.Models
         public string? LastName { get; set; }
 
         //relation
-        public List<CreatePostVM> Posts { get; set; }
+        public List<Post> Posts { get; set; }
     }
 }

@@ -1,52 +1,64 @@
-﻿@* @model MichiBlog.WebApp.ViewModels.PostVM *@
+﻿@model List<MichiBlog.WebApp.ViewModels.PostVM>
 @{
     ViewData["Title"] = "List of Posts";
+    ViewData["ActivePage"] = "Posts";
 }
-<h2>This is the list of posts</h2>
-@* <div class="container-fluid"> *@
-@*     <a class="btn bg-primary text-white" asp-action="Create" asp-controller="Post">Add Post</a> *@
-@*     <div class="card"> *@
-@*         <div class="card-header bg-primary"> *@
-@*             <h4 class="card-title text-white">List of Posts</h4> *@
-@*         </div> *@
-@*         <div class="card-body"> *@
-@*             <table class="table table-striped table-hover" id="userTable"> *@
-@*                 <thead> *@
-@*                     <tr> *@
-@*                         <th>Title</th> *@
-@*                         <th>Short Description</th> *@
-@*                         <th>Date Created</th> *@
-@*                         <th>Email</th> *@
-@*                         <th>Role</th> *@
-@*                         <th>Action</th> *@
-@*                     </tr> *@
-@*                 </thead> *@
-@*                 <tbody> *@
-@*                     @foreach (var user in Model) *@
-@*                     { *@
-@*                         <tr> *@
-@*                             <td>@user.FirstName</td> *@
-@*                             <td>@user.LastName</td> *@
-@*                             <td>@user.UserName</td> *@
-@*                             <td>@user.Email</td> *@
-@*                             <td>@user.Role</td> *@
-@*                             <td> *@
-@*                                 @if (User.Identity.Name != user.UserName) *@
-@*                                 { *@
-@*                                     <a href="@Url.Action("EditUser", "User", new { id = user.Id, area = "Admin" })" class="btn bg-warning text-white">Edit</a> *@
-@*                                     <a class="btn bg-info text-white" asp-action="ResetPassword" asp-controller="User" asp-route-id="@user.Id">Reset Password</a> *@
-@*                                     <a class="btn bg-danger text-white">Delete</a> *@
+<div class="container-fluid">
+    <a class="btn bg-primary text-white" asp-action="Create" asp-controller="Post">Add Post</a>
+    <div class="card">
+        <div class="card-header bg-primary">
+            <h4 class="card-title text-white">List of Posts</h4>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-hover" id="userTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Description</th>
+                        <th>Created Date</th>
+                        <th>Thumbnail</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var post in Model)
+                    {
+                        <tr>
+                            <td>@post.Id</td>
+                            <td>@post.Title</td>
+                            <td>@post.Author</td>
+                            <td>@post.ShortDescription</td>
+                            <td>@post.CreatedDate.ToShortDateString()</td>
+                            <td>
+                                <button class="btn btn-link" data-toggle="modal" data-target="#thumbnailModal-@post.Id">View</button>
 
-@*                                 } *@
-@*                                 else *@
-@*                                 { *@
-@*                                     <span>Cannot edit or delete this user</span> *@
-@*                                 } *@
-@*                             </td> *@
-@*                         </tr> *@
-@*                     } *@
-@*                 </tbody> *@
-@*             </table> *@
-@*         </div> *@
-@*     </div> *@
-@* </div> *@
+                                <!-- Thumbnail Modal -->
+                                <div class="modal fade" id="thumbnailModal-@post.Id" tabindex="-1" aria-labelledby="thumbnailModalLabel-@post.Id" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="thumbnailModalLabel-@post.Id">Thumbnail Preview</h5>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <img src="~/Thumbnails/@post.ThumbnailUrl" class="img-fluid rounded" alt="Thumbnail for @post.Title">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <a class="btn bg-primary text-white" asp-action="Edit" asp-controller="Post" asp-route-id="@post.Id">Edit</a>
+                                <a class="btn bg-danger text-white" asp-action="Delete" asp-controller="Post" asp-route-id="@post.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

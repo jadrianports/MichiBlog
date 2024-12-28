@@ -33,12 +33,17 @@
                     @if (User.IsInRole("Admin")) {
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller="User" asp-action="Index" asp-area="Admin">ADMIN</a></li>
                     }
-                    @if (User.Identity.IsAuthenticated) {
+                    @if (User.Identity.IsAuthenticated)
+                    {
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" onclick="$('#LogoutForm').submit();" style="cursor: pointer;">Logout</a>
                             <form id="LogoutForm" class="form-inline" asp-action="Logout" asp-controller="User" asp-area="Admin" method="post">
                             </form>
                         </li>
-                        
+                    }
+                    else {
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-3 py-3 py-lg-4" asp-controller="User" asp-action="Login" asp-area="Admin" style="cursor: pointer;">Login</a>
+                        </li>
                     }
 
                 </ul>

@@ -1,5 +1,6 @@
 using AspNetCoreHero.ToastNotification;
 using AspNetCoreHero.ToastNotification.Extensions;
+using Ganss.Xss;
 using MichiBlog.Models;
 using MichiBlog.WebApp.Data;
 using MichiBlog.WebApp.Utilities;
@@ -33,6 +34,8 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
 });
+
+builder.Services.AddSingleton<HtmlSanitizer>();
 
 builder.Services.AddRazorPages()
     .AddRazorRuntimeCompilation();

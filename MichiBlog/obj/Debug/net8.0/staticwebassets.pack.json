@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MichiBlog.WebApp.wv7d1nz2ev.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg",
+      "PackagePath": "staticwebassets\\Thumbnails\\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\default.jpg",
+      "PackagePath": "staticwebassets\\Thumbnails\\default.jpg"
+    },
+    {
       "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\admin\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\admin\\css\\sb-admin-2.css"
     },

@@ -1,13 +1,13 @@
 ﻿namespace MichiBlog.WebApp.ViewModels
 {
-    public class CreatePostVM
+    public class PostVM
     {
+        //List properties of a post to be displayed in a list
         public int Id { get; set; }
         public string Title { get; set; }
         public string ShortDescription { get; set; }
-        public string Description { get; set; }
-        public string? Slug { get; set; }
+        public DateTime CreatedDate { get; set; }
         public string? ThumbnailUrl { get; set; }
-        public IFormFile? Thumbnail { get; set; }
+        public string Author { get; set; }
     }
 }

@@ -228,10 +228,16 @@ namespace MichiBlog.WebApp.Areas.Admin.Controllers
                 // Get the user's claims from the database or create custom claims
                 var claims = new List<Claim>
         {
+            new Claim(ClaimTypes.Name, existingUser.UserName ?? string.Empty),
             new Claim(ClaimTypes.Surname, existingUser.LastName ?? string.Empty),
             new Claim(ClaimTypes.GivenName, existingUser.FirstName ?? string.Empty),
             new Claim(ClaimTypes.Email, existingUser.Email ?? string.Empty)
         };
+                // Add custom claims
+                if (!String.IsNullOrEmpty(existingUser.UserName))
+                {
+                    claims.Add(new Claim(ClaimTypes.Name, existingUser.UserName));
+                }
 
                 if (!string.IsNullOrEmpty(existingUser.FirstName))
                 {
