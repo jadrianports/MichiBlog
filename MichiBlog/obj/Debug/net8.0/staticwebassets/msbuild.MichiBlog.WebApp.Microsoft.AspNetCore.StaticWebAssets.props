@@ -33510,8 +33510,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>02don332pa</Fingerprint>
-      <Integrity>GGvJMKGsdOcjQG20pQn8+ulhpTrmbhoK8jc4I7YcSew=</Integrity>
+      <Fingerprint>51es466nfq</Fingerprint>
+      <Integrity>901cgfNBAYzcECmN5337Hhf2M2xn3azfjL6i4MbkZs4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\blog\css\styles.css'))</OriginalItemSpec>
@@ -34632,6 +34632,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MichiBlog.WebApp.wv7d1nz2ev.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\006db50d-8c1d-4285-b53c-24c372a5e967_istockphoto-1359790023-612x612.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MichiBlog.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MichiBlog.WebApp</BasePath>
+      <RelativePath>Thumbnails/006db50d-8c1d-4285-b53c-24c372a5e967_istockphoto-1359790023-612x612.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4izxsoytbr</Fingerprint>
+      <Integrity>BHJGTN4KM67XEJy7RNETu1MwdUpjI5WRkpgTiu0LTf0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\006db50d-8c1d-4285-b53c-24c372a5e967_istockphoto-1359790023-612x612.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\34267c11-6ef0-4cec-9f52-e265d4f9ec68_6656ed04-ff3c-4fee-9def-be1fc88ccd38.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MichiBlog.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MichiBlog.WebApp</BasePath>
+      <RelativePath>Thumbnails/34267c11-6ef0-4cec-9f52-e265d4f9ec68_6656ed04-ff3c-4fee-9def-be1fc88ccd38.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fy16l563md</Fingerprint>
+      <Integrity>mSfNKaGbq5TySwpWaspfJEXZaVaCzQb+VKLhrNlo+Kw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\34267c11-6ef0-4cec-9f52-e265d4f9ec68_6656ed04-ff3c-4fee-9def-be1fc88ccd38.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>MichiBlog.WebApp</SourceId>
@@ -34649,6 +34685,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\44f50baf-383e-48a2-8ea8-eadb81c18e0d_DSC4523-1920x1280.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MichiBlog.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MichiBlog.WebApp</BasePath>
+      <RelativePath>Thumbnails/44f50baf-383e-48a2-8ea8-eadb81c18e0d_DSC4523-1920x1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>og6ovu0sok</Fingerprint>
+      <Integrity>uO2BQrIHF14ndUumkuHVUOIOSzaCdrL0RO6sdqt9e44=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\44f50baf-383e-48a2-8ea8-eadb81c18e0d_DSC4523-1920x1280.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Thumbnails\default.jpg'))">
       <SourceType>Package</SourceType>

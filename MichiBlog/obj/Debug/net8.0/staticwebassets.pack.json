@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\MichiBlog.WebApp.wv7d1nz2ev.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\006db50d-8c1d-4285-b53c-24c372a5e967_istockphoto-1359790023-612x612.jpg",
+      "PackagePath": "staticwebassets\\Thumbnails\\006db50d-8c1d-4285-b53c-24c372a5e967_istockphoto-1359790023-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\34267c11-6ef0-4cec-9f52-e265d4f9ec68_6656ed04-ff3c-4fee-9def-be1fc88ccd38.jpg",
+      "PackagePath": "staticwebassets\\Thumbnails\\34267c11-6ef0-4cec-9f52-e265d4f9ec68_6656ed04-ff3c-4fee-9def-be1fc88ccd38.jpg"
+    },
+    {
       "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg",
       "PackagePath": "staticwebassets\\Thumbnails\\3f710217-308d-4eb3-9376-6d8a626ecc75_455944909_122164616690227074_3838397191520284056_n.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\44f50baf-383e-48a2-8ea8-eadb81c18e0d_DSC4523-1920x1280.jpg",
+      "PackagePath": "staticwebassets\\Thumbnails\\44f50baf-383e-48a2-8ea8-eadb81c18e0d_DSC4523-1920x1280.jpg"
     },
     {
       "Id": "C:\\Projects\\MichiBlog\\MichiBlog\\wwwroot\\Thumbnails\\default.jpg",

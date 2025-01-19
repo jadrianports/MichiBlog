@@ -1,0 +1,104 @@
+﻿@model MichiBlog.WebApp.ViewModels.LoginVM
+
+@{
+    Layout = "_LoginLayout";
+}
+
+<!-- Outer Row -->
+<div class="row justify-content-center">
+
+    <div class="col-xl-10 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">Welcome!</h1>
+                            </div>
+                            <form class="user" method="post" asp-action="Login" asp-controller="Account">
+                                <div class="form-group">
+                                    <input asp-for = "Username" type="text" class="form-control form-control-user"
+                                    id="exampleInputEmail" aria-describedby="emailHelp"
+                                    placeholder="Enter Username...">
+                                    <span asp-validation-for="Username" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for = "Password" type="password" class="form-control form-control-user"
+                                    id="exampleInputPassword" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <div class="custom-control custom-checkbox small">
+                                        <input asp-for = "RememberMe" type="checkbox" class="custom-control-input" id="customCheck">
+                                        <label class="custom-control-label" for="customCheck">
+                                            Remember
+                                            Me
+                                        </label>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- CAPTCHA Input (You can replace this with your CAPTCHA provider's implementation) -->
+                                <div class="form-group">
+                                    <label for="captcha">Please verify you are not a robot:</label>
+                                    <img src="/api/captcha" alt="CAPTCHA" id="captchaImage">
+                                    <button type="button" onclick="reloadCaptcha()">Reload CAPTCHA</button>
+                                    <input type="text" name="CaptchaCode" id="captcha" class="form-control form-control-user" placeholder="Enter CAPTCHA" required>
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-user btn-block" value="Login">
+                            </form>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">Forgot Password?</a>
+                            </div>
+                            <div class="text-center">
+                                <a asp-action = "Register" asp-controller="Account" class="small">Create an Account!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- OTP Modal -->
+@if (Model.RequiresOtpVerification)
+{
+    <div class="modal fade" id="otpModal" tabindex="-1" aria-labelledby="otpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="otpModalLabel">OTP Verification</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You are logging in from a new device. Please enter the OTP sent to your email.</p>
+                    <form method="post" asp-action="VerifyOtp" asp-controller="Account">
+                        <div class="form-group">
+                            <label for="otp">Enter OTP:</label>
+                            <input type="text" name="otp" id="otp" class="form-control" placeholder="Enter OTP" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="submit" value="Verify" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script>
+    $(document).ready(function () {
+            // Check if OTP verification is required
+        var requiresOtp = '@Model.RequiresOtpVerification';
+        if (requiresOtp === 'True') {
+            $("#otpModal").modal("show");
+        }
+        });
+     function reloadCaptcha() {
+        const captchaImage = document.getElementById('captchaImage');
+        captchaImage.src = '/api/captcha?' + new Date().getTime(); // Prevent caching
+    }
+</script>

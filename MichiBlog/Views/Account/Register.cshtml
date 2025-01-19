@@ -15,7 +15,8 @@
                     <div class="text-center">
                         <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                     </div>
-                    <form asp-action="Register" asp-controller="User" asp-area="Admin" method="post" class="user">
+                    <form asp-action="Register" asp-controller="Account" method="post" class="user">
+                        @Html.AntiForgeryToken()
                         <div class="form-group row">
                             <div class="col-sm-6 mb-3 mb-sm-0">
                                 <input asp-for="FirstName" type="text" class="form-control form-control-user" id="exampleFirstName"
@@ -28,20 +29,23 @@
                                        <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <input asp-for="Email" type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                   placeholder="Email Address">
-                                   <span asp-validation-for="Email" class="text-danger"></span>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <input asp-for="UserName" type="text" class="form-control form-control-user" id="exampleUserName"
+                                       placeholder="Username">
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="Email" type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                       placeholder="Email Address">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-sm-6 mb-3 mb-sm-0">
                                 <input asp-for="Password" type="password" class="form-control form-control-user"
                                        id="exampleInputPassword" placeholder="Password">
                                         <span asp-validation-for="Password" class="text-danger"></span>
-                            </div>
-                            <div class="col-sm-6">
-                                <input type="password" class="form-control form-control-user"
-                                       id="exampleRepeatPassword" placeholder="Repeat Password">
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-user btn-block">

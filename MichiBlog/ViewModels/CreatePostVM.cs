@@ -12,5 +12,7 @@ namespace MichiBlog.WebApp.ViewModels
         public string? Slug { get; set; }
         public string? ThumbnailUrl { get; set; }
         public IFormFile? Thumbnail { get; set; }
+        public string? ApplicationUserId { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

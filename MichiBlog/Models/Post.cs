@@ -15,5 +15,9 @@ namespace MichiBlog.WebApp.Models
         public ApplicationUser? ApplicationUser { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public string? ThumbnailUrl { get; set; }
+
+        //relationships
+        public List<Comment> Comments { get; set; } = new List<Comment>();
+        public List<Reaction> Reactions { get; set; } = new List<Reaction>();
     }
 }

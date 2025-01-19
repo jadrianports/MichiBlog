@@ -1,80 +1,100 @@
-﻿@using System.Security.Claims
+﻿@model MichiBlog.WebApp.ViewModels.HomeVM
+@using System.Security.Claims
 @{
     ViewData["Title"] = "Home Page";
+    string thumbnailUrl = "";
+    if (Model.ThumbnailUrl == null || Model.ThumbnailUrl == ""  ) {
+        thumbnailUrl = "/blog/assets/img/home-bg.jpg";
+    }
+    else { 
+        thumbnailUrl = "/Thumbnails/" + Model.ThumbnailUrl;
+    }
 }
 <!-- Page Header-->
-<header class="masthead" style="background-image: url('/blog/assets/img/home-bg.jpg')">
+<header class="masthead" id="masthead" style="background-image: url('@thumbnailUrl')">
     <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading">
-                    <h1>Michi Blog</h1>
+                    <h1>@Model.Title</h1>
                     @if(User.Identity.IsAuthenticated){
-                    <span class="subheading">Hello @User.FindFirstValue(ClaimTypes.GivenName), Welcome to my Blog</span>
+                        <span class="subheading">Hello @User.FindFirstValue(ClaimTypes.GivenName), Welcome to my Blog</span>
                     }
                 </div>
             </div>
         </div>
     </div>
 </header>
-<div class="container px-4 px-lg-5">
+
+<div class="container px-4 px-lg-5" id="postsContainer">
     <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
             <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                    <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+            @foreach (var post in Model.Posts!)
+            {
+                <div class="post-preview">
+                    <a asp-action ="Post" asp-controller = "Blog" asp-route-slug ="@post.Slug">
+                    <h2 class="post-title">@post.Title</h2>
+                    <h3 class="post-subtitle">@post.ShortDescription</h3>
                 </a>
                 <p class="post-meta">
                     Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on September 24, 2023
+                    <a href="#!">@post.ApplicationUser!.FirstName @post.ApplicationUser!.LastName</a>
+                    on @post.CreatedDate.ToShortDateString()
+                        <br />
+                        <strong>@post.Comments.Count</strong> Comments
+                        <br />
+                        <!--display likes and dislikes-->
+                        <strong>@post.Reactions.Count(x => x.Liked)</strong> <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        <strong>@post.Reactions.Count(x => x.Disliked)</strong> <i class="fa fa-thumbs-down" aria-hidden="true"></i>
                 </p>
             </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on September 18, 2023
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                    <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                </a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on August 24, 2023
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">Failure is not an option</h2>
-                    <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                </a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on July 8, 2023
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
+                <!-- Divider-->
+                <hr class="my-4" />
+            }
             <!-- Pager-->
-            <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <!-- Previous Page -->
+                    @if ((int)ViewData["CurrentPage"] > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Index" asp-route-page="@((int)ViewData["CurrentPage"] - 1)">Previous</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item disabled">
+                            <span class="page-link">Previous</span>
+                        </li>
+                    }
+
+                    <!-- Page Numbers -->
+                    @for (int i = 1; i <= (int)ViewData["TotalPages"]; i++)
+                    {
+                        <li class="page-item @(i == (int)ViewData["CurrentPage"] ? "active" : "")">
+                            <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                        </li>
+                    }
+
+                    <!-- Next Page -->
+                    @if ((int)ViewData["CurrentPage"] < (int)ViewData["TotalPages"])
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Index" asp-route-page="@((int)ViewData["CurrentPage"] + 1)">Next</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item disabled">
+                            <span class="page-link">Next</span>
+                        </li>
+                    }
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
+
+<script>
+</script>

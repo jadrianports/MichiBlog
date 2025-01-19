@@ -93,6 +93,100 @@ namespace MichiBlog.WebApp.Areas.Admin.Controllers
             return RedirectToAction("Index", "Post");
         }
 
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var post = await _context.Posts!.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (post == null)
+            {
+                _notification.Error("Post not found.");
+                return RedirectToAction("Index", "Post");
+            }
+
+            // Delete the thumbnail file if it exists
+            if (!string.IsNullOrEmpty(post.ThumbnailUrl))
+            {
+                var thumbnailPath = Path.Combine(_webHostEnvironment.WebRootPath, "Thumbnails", post.ThumbnailUrl);
+
+                if (System.IO.File.Exists(thumbnailPath))
+                {
+                    System.IO.File.Delete(thumbnailPath);
+                }
+            }
+
+            _context.Posts!.Remove(post!);
+            await _context.SaveChangesAsync();
+
+
+            _notification.Success("Post deleted successfully");
+            return RedirectToAction("Index", "Post");
+        }
+
+        //Edit Post Function
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var post = await _context.Posts!.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (post == null)
+            {
+                _notification.Error("Post not found.");
+                return RedirectToAction("Index", "Post");
+            }
+
+            var editPostVM = new CreatePostVM()
+            {
+                Id = post.Id,
+                Title = post.Title,
+                ShortDescription = post.ShortDescription,
+                Description = post.Description,
+                ThumbnailUrl = post.ThumbnailUrl,
+                CreatedDate = post.CreatedDate
+            };
+
+            return View(editPostVM);
+        }
+
+        //Edit Post function
+        [HttpPost]
+        public async Task<IActionResult> Edit(CreatePostVM editPostVM)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(editPostVM);
+            }
+
+            var post = await _context.Posts!.FirstOrDefaultAsync(x => x.Id == editPostVM.Id);
+
+            if (post == null)
+            {
+                _notification.Error("Post not found.");
+                return RedirectToAction("Index", "Post");
+            }
+
+            post.Title = editPostVM.Title;
+            post.ShortDescription = _sanitizer.Sanitize(editPostVM.ShortDescription);
+            post.Description = _sanitizer.Sanitize(editPostVM.Description);
+            post.CreatedDate = DateTime.Now;
+
+            if (!string.IsNullOrWhiteSpace(post.Title))
+            {
+                string slug = post.Title.Trim().Replace(" ", "-");
+                post.Slug = slug + "-" + Guid.NewGuid();
+            }
+
+            if (editPostVM.Thumbnail != null)
+            {
+                post.ThumbnailUrl = UploadImage(editPostVM.Thumbnail);
+            }
+
+            await _context.SaveChangesAsync();
+            _notification.Success("Post updated successfully");
+            return RedirectToAction("Index", "Post");
+        }
+
         private string UploadImage(IFormFile file)
         {
             string uniqueFileName = null;

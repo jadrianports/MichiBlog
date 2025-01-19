@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[8.1.870, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.3.0, )"
@@ -91,6 +95,22 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "NeoCaptcha": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[3.116.1, )"
+            },
+            "SkiaSharp.NativeAssets.Win32": {
+              "target": "Package",
+              "version": "[3.116.1, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.8.0, )"
             }
           },
           "imports": [

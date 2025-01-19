@@ -65,7 +65,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <li class="nav-item @(ViewData["ActivePage"] as string == "Pages" ? "active" : "")">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                    aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -73,10 +73,10 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <h6 class="collapse-header">Home Screens:</h6>
+                        <a class="collapse-item" asp-area="Admin" asp-action ="About" asp-controller="Page">About</a>
+                        <a class="collapse-item" asp-area="Admin" asp-action="Contact" asp-controller="Page">Contact</a>
+                        <a class="collapse-item" asp-area="Admin" asp-action="Privacy" asp-controller="Page">Privacy Policy</a>
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
                         <a class="collapse-item" href="404.html">404 Page</a>
@@ -98,6 +98,13 @@
                 <a class="nav-link" asp-action="Index" asp-controller="Post">
                     <i class="fas fa-fw fa-clipboard"></i>
                     <span>Posts</span>
+                </a>
+            </li>
+
+            <li class="nav-item @(ViewData["ActivePage"] as string == "Settings" ? "active" : "")">
+                <a class="nav-link" asp-action="Index" asp-controller="Setting">
+                    <i class="fas fa-fw fa-gear"></i>
+                    <span>Setting</span>
                 </a>
             </li>
 
@@ -365,7 +372,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <form asp-area ="Admin" asp-controller="User" asp-action="Logout" method="post">
+                    <form asp-controller="Account" asp-action="Logout" method="post">
                     <button class="btn btn-primary" type="submit">Logout</button>
                     </form>
                 </div>

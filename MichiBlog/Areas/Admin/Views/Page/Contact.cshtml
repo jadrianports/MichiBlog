@@ -1,0 +1,94 @@
+﻿@model MichiBlog.WebApp.ViewModels.PageVM
+@{
+    ViewData["Title"] = "Edit Contact";
+    ViewData["ActivePage"] = "Pages";
+}
+<div class="container-fluid">
+    <a class="btn btn-primary mb-1" asp-action="Index" asp-controller="Post">Go Back</a>
+    <div class="card">
+        <div class="card-header bg-primary">
+            <h4 class="card-title text-white">Edit Page</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Contact" asp-controller="Page" asp-area="Admin" enctype="multipart/form-data" method="post">
+                <div class="row mb-2">
+                    <div class="col-9">
+                        <div class="mb-2">
+                            <label>Title</label>
+                            <input asp-for="Title" type="text" class="form-control">
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Short Description</label>
+                            <input asp-for="ShortDescription" type="text" class="form-control">
+                            <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Content</label>
+                            <textarea asp-for="Content" class="form-control" rows="8"></textarea>
+                            <span asp-validation-for="Content" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="mb-2">
+                            @if (Model.Thumbnail == null)
+                            {
+                                <img id="previewImage" alt="Thumbnail Preview" src="~/Thumbnails/default.jpg" class="img-fluid">
+                            }
+                            else
+                            {
+                                <img id="previewImage" alt="Thumbnail Preview" src="~/Thumbnails/@Model.ThumbnailUrl" class="img-fluid">
+                            }
+                        </div>
+                        <div class="mb-2">
+                            <label>Thumbnail</label>
+                            <input asp-for="Thumbnail" type="file" class="custom-file" id="formFile" onchange="updateThumbnailPreview(event)">
+                            <span asp-validation-for="Thumbnail" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-primary w-100">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+            function updateThumbnailPreview(event) {
+                const fileInput = event.target;
+                const previewImage = document.getElementById('previewImage');
+
+                if (fileInput.files && fileInput.files[0]) {
+                    const file = fileInput.files[0];
+
+                    // Validate if the file is an image
+                    if (file.type.startsWith('image/')) {
+                        previewImage.src = URL.createObjectURL(file);
+                        previewImage.onload = function () {
+                            URL.revokeObjectURL(previewImage.src); // Free memory after loading
+                        };
+                    } else {
+                        alert('Please select a valid image file.');
+                        fileInput.value = ''; // Clear the input
+                        previewImage.src = '~/Thumbnails/default.jpg'; // Reset to default
+                    }
+                } else {
+                    previewImage.src = '~/Thumbnails/default.jpg'; // Reset to default
+                }
+            }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            tinymce.init({
+                selector: 'textarea[name="Description"]',
+                plugins: 'lists link image preview code',
+                toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | preview code',
+                height: 300,
+                menubar: false
+            });
+        });
+    </script>
+}

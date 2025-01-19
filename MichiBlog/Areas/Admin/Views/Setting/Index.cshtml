@@ -1,0 +1,109 @@
+﻿@model MichiBlog.WebApp.ViewModels.SettingVM
+@{
+    ViewData["Title"] = "Site Setting";
+    ViewData["ActivePage"] = "Settings";
+}
+<div class="container-fluid">
+    <a class="btn btn-primary mb-1" asp-action="Index" asp-controller="Post">Go Back</a>
+    <div class="card">
+        <div class="card-header bg-primary">
+            <h4 class="card-title text-white">New Post</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Index" asp-controller="Setting" asp-area="Admin" enctype="multipart/form-data" method="post">
+                <div class="row mb-2">
+                    <div class="col-9">
+                        <div class="mb-2">
+                            <label>Site Name</label>
+                            <input asp-for="SiteName" type="text" class="form-control">
+                            <span asp-validation-for="SiteName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Title</label>
+                            <input asp-for="Title" type="text" class="form-control">
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Short Description</label>
+                            <input asp-for="Description" type="text" class="form-control">
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Facebook</label>
+                            <input asp-for="FacebookUrl" type="text" class="form-control">
+                            <span asp-validation-for="FacebookUrl" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Instagram</label>
+                            <input asp-for="InstagramUrl" type="text" class="form-control">
+                            <span asp-validation-for="InstagramUrl" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label>Twitter</label>
+                            <input asp-for="TwitterUrl" type="text" class="form-control">
+                            <span asp-validation-for="TwitterUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="mb-2">
+                            @if (Model.Thumbnail == null)
+                            {
+                                <img src = "~/Thumbnails/default.jpg" id="thumbnail" class="img-fluid" alt="Thumbnail Preview">
+                            }
+                            else 
+                            {
+                                <img src = "~/Thumbnails/@Model.ThumbnailUrl" id="thumbnail" class="img-fluid" alt="Thumbnail Preview">
+                            }
+                        </div>
+                        <div class="mb-2">
+                            <label>Thumbnail</label>
+                            <input asp-for="Thumbnail" type="file" class="custom-file" id="formFile" onchange="updateThumbnailPreview(event)">
+                            <span asp-validation-for="Thumbnail" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-primary w-100">Add User</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+            function updateThumbnailPreview(event) {
+                const fileInput = event.target;
+                const previewImage = document.getElementById('previewImage');
+
+                if (fileInput.files && fileInput.files[0]) {
+                    const file = fileInput.files[0];
+
+                    // Validate if the file is an image
+                    if (file.type.startsWith('image/')) {
+                        previewImage.src = URL.createObjectURL(file);
+                        previewImage.onload = function () {
+                            URL.revokeObjectURL(previewImage.src); // Free memory after loading
+                        };
+                    } else {
+                        alert('Please select a valid image file.');
+                        fileInput.value = ''; // Clear the input
+                        previewImage.src = '~/Thumbnails/default.jpg'; // Reset to default
+                    }
+                } else {
+                    previewImage.src = '~/Thumbnails/default.jpg'; // Reset to default
+                }
+            }
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            tinymce.init({
+                selector: 'textarea[name="Description"]',
+                plugins: 'lists link image preview code',
+                toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | preview code',
+                height: 300,
+                menubar: false
+            });
+        });
+    </script>
+}

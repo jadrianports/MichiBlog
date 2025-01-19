@@ -1,4 +1,4 @@
-﻿using Microsoft.Build.Framework;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MichiBlog.WebApp.ViewModels
 {
@@ -7,8 +7,9 @@ namespace MichiBlog.WebApp.ViewModels
         [Required]
         public string? Username { get; set; }
         [Required]
+        [DataType(DataType.Password)]
         public string? Password { get; set; }
         public bool RememberMe { get; set; }
-
+        public bool RequiresOtpVerification { get; set; }
     }
 }

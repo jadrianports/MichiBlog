@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "MichiBlog.WebApp.Controllers.CaptchaController",
+    "Method": "GetCaptcha",
+    "RelativePath": "api/captcha",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
